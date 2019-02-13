@@ -1,0 +1,356 @@
+/*
+Name: Ujjal Deb
+Country: Bangadesh
+Email: deb.ujjal.ksa@gmail.com
+*/
+
+/*
+1. Global CSS
+2. Banner section CSS
+3. Take-A-Tour Top section CSS
+4. Take-A-Tour Bottom section CSS
+5. Contact Now section CSS
+6. Popular Services section CSS
+7. Counter section CSS
+8. Testimonial section CSS
+9. Contact section CSS
+10.Footer section CSS
+11.Media Query
+	11.1 For Mobile Devices
+	11.2 For Tablet Devices
+*/
+
+/* Global CSS */
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+	color: #002e5b;
+	font-weight: 700;
+}
+h5{
+	color: #002e5b;
+}
+h6{
+	color: #888888;
+	font-weight: 400;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+}
+.no-padding{
+	padding: 0;
+}
+
+/* Banner section CSS */
+.banner{
+	background: url(../images/banner.png) no-repeat;
+	background-size: cover;
+}
+.navbar{
+	margin-top: 20px;
+}
+.banner .bg-light {
+	background-color: transparent !important;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fde428 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    text-transform: uppercase;
+    margin-right: 15px;
+    line-height: 3;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.banner .navbar-nav .last-anchor {
+    margin: 0;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fde428 !important;
+}
+
+.dropdown-toggle::after {
+    margin-left: -8px;
+}
+.banner .banner-content{
+	margin: 170px 0;
+}
+
+/* Take-A-Tour Top section CSS */
+.take-a-tour-top h2{
+	text-transform: uppercase;
+	margin-top: 120px;
+}
+.take-a-tour-top h6{
+	margin: 16px 0;
+}
+.take-a-tour-top a{
+	text-transform: uppercase;
+	text-decoration: underline;
+    font-weight: 700;
+    color: #002e5b;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.take-a-tour-top a:hover{
+	color: #fde428;
+}
+
+/* Take-A-Tour-Bottom section */
+.take-a-tour-bottom{
+	padding: 100px 0;
+	background: #f4f4f4;
+}
+.take-a-tour-bottom h2{
+	text-transform: uppercase;
+}
+.take-a-tour-bottom h6{
+	margin: 16px 0;
+}
+.take-a-tour-bottom a{
+	text-transform: uppercase;
+	text-decoration: underline;
+    font-weight: 700;
+    color: #002e5b;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.take-a-tour-bottom a:hover{
+	color: #fde428;
+}
+
+/* Contact Now section CSS */
+.contact-now{
+	background: #002e5b;
+	padding: 15px 0;
+}
+.contact-now p{
+	float: left;
+	color: #fff;
+	font-size: 18px;
+	margin: 6px 0 0;
+}
+.contact-now .btn{
+	float: right;
+    background: #fde428;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.contact-now .btn:hover{
+	background: #fff;
+}
+
+/* Popular Services section CSS */
+.popular-services{
+	padding: 100px 0;
+}
+.popular-services h2{
+	text-transform: uppercase;
+}
+.popular-services h6{
+	margin-bottom: 30px;
+}
+.popular-services h5{
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+/* Counter section CSS */
+.counter{
+	padding: 100px 0;
+	background: #002e5b;
+}
+.counter h1{
+	color: #fff;
+	letter-spacing: 12px;
+}
+.counter p{
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0
+}
+
+/* Testimonial section CSS */
+.testimonial{
+	padding: 100px 0;
+	background: #062849;
+}
+.testimonial span{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+}
+.testimonial p{
+	color: #fff;
+	margin: 0;
+}
+
+/* Contact section CSS */
+.contact{
+	padding: 100px 0;
+}
+.contact h2{
+	text-transform: uppercase;
+}
+.contact h6{
+	margin-bottom: 30px;
+}
+.contact .map-content{
+	box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.contact .caption{
+	padding: 25px;
+}
+.contact h5{
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.contact .fa{
+	color: #002e5b;
+}
+.contact .fa-mobile{
+	font-size: 16px;
+}
+.contact .fa-envelope{
+	font-size: 10px;
+	margin-right: 5px;
+}
+.contact p{
+	margin-bottom: 5px;
+	color: #002e5b;
+}
+
+/* Footer section CSS */
+footer{
+	background: #002e5b;
+	padding: 20px 0;
+}
+footer p{
+	color: #fff;
+	float: left;
+	margin: 0;
+}
+footer span{
+	color: #fde52c;
+}
+footer ul{
+	float: right;
+	margin: 0;
+}
+footer ul li a{
+	color: #fff;
+	transition: 0.5s;
+}
+footer ul li a:hover{
+	color: #fde428;
+}
+
+/* Media Query */
+/* For Mobile Devices */
+@media screen and (max-width: 991px){
+	h2{
+		font-size: 24px;
+	}
+	.navbar{
+		margin-top: 10px;
+	}
+	.banner .navbar-toggler{
+		border: 1px solid #3d3d85;
+	}
+	.banner .banner-content {
+	    margin: 30px 0;
+	}
+	.take-a-tour-top h2 {
+	   margin-top: 30px;
+	   text-align: center;
+	}
+	.take-a-tour-top h6,
+	.take-a-tour-top p {
+	    text-align: center;
+	}
+	.take-a-tour-top a{
+		display: block;
+    	text-align: center;
+    	margin-bottom: 30px;
+	}
+	.take-a-tour-top .img-fluid{
+		display: block;
+		margin: auto;
+	}
+	.take-a-tour-bottom {
+	    padding: 30px 0;
+	}
+	.take-a-tour-bottom .img-fluid {
+		display: block;
+		margin: auto;
+	}
+	.take-a-tour-bottom h2 {
+	    text-align: center;
+	    margin-top: 30px;
+	}
+	.take-a-tour-bottom h6,
+	.take-a-tour-bottom p {
+	    text-align: center;
+	}
+	.take-a-tour-bottom a {
+		display: block;
+		text-align: center;
+	}
+	.contact-now {
+	    padding: 20px 0;
+	}
+	.contact-now p {
+	    text-align: center;
+	    margin-top: 0;
+    	margin-bottom: 10px;
+	}
+	.contact-now .btn {
+		float: none;
+	    display: block;
+	    margin: auto;
+	}
+	.popular-services {
+	    padding: 30px 0;
+	}
+	.counter {
+	    padding: 30px 0;
+	}
+	.counter h1 {
+	    margin-top: 20px;
+	}
+	.testimonial {
+	    padding: 30px 0;
+	}
+	.contact {
+		padding: 30px 0;
+	}
+	.contact .map-content {
+		margin-bottom: 20px;
+	}
+	.contact .mrgn {
+		margin-bottom: 0;
+	}
+	.contact .img-fluid {
+		width: 100%;
+	}
+	.contact .caption {
+	    text-align: center;
+	}
+}
+
+/* For Tablet Devices */
